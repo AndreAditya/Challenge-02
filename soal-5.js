@@ -37,7 +37,7 @@ const dataPenjualanNovel = [
   },
 ];
 
-function getinfoPenjualan(dataPenjualan) {
+function informasiPenjualan(dataPenjualan) {
   // Validasi parameter
   if (!Array.isArray(dataPenjualan)) {
     return "ERROR! : Parameter harus berupa array!";
@@ -129,5 +129,5 @@ function getinfoPenjualan(dataPenjualan) {
   return hasil;
 }
 
-const infoPenjualan = getinfoPenjualan(dataPenjualanNovel);
+const infoPenjualan = informasiPenjualan(dataPenjualanNovel);
 console.log(infoPenjualan);
